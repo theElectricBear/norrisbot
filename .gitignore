@@ -27,7 +27,7 @@ build/Release
 
 # Dependency directory
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
-node_modules
+node_modules/
 
 #do not commit real token
 token.js
@@ -36,4 +36,4 @@ token.js
 /db
 
 #do not commit editor config files
-.idea
+.ideanode_modules
