@@ -2,7 +2,7 @@
 
 var NorrisBot = require('../lib/norrisbot');
 
-var token = 'xoxb-70849268976-A9uo5Cc9dzAOeF0puqsQjw3N';
+var token = process.env.BOT_API_KEY;
 var dbPath = process.env.BOT_DB_PATH;
 var name = process.env.BOT_NAME;
 
